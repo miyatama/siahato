@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".ShiahatoActivity">
+
+    <com.google.ar.sceneform.ArSceneView
+            android:id="@+id/ar_scene_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"/>
+
+    <View
+            android:id="@+id/standOnView"
+            android:background="@color/standOverap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <Button android:id="@+id/nextStage"
+            android:text="Debug"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"/>
+</RelativeLayout>

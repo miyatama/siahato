@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Siahato</string>
+    <string name="threshold_confirm_text">囲まれた</string>
+    <string name="threshold_confirm_message">手が赤色で囲まれたボタンを押してね☆</string>
+    <string name="color_threshold_upper">Upper</string>
+    <string name="color_threshold_lower">Lower</string>
+    <string name="created_by_google_poly">Created By: Google Poly</string>
+</resources>
